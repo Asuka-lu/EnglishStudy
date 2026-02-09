@@ -25,9 +25,6 @@ public class WordController {
     @Autowired
     private DataUtils dataUtils;
 
-
-    // 学习操作
-
     //选择英语书籍
     @RequestMapping("/selectWord")
     public String SelectWord(Model model){

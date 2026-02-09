@@ -9,11 +9,6 @@ import java.util.List;
 @Mapper
 @Repository
 public interface UserMapper {
-
-
-
-     // 注册用户与登录用户
-
     //增加用户--注册用户
     int addUser(User user);
     //根据激活码查询用户
